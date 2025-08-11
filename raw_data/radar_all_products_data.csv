@@ -1,0 +1,5 @@
+satellite_name,satellite_id,sensor_name,sensor_id,prefix,suffix,id,name,description,startdate,enddate,frequency,processlevel,satinorbit,longres,techdoc,crnt_flg,actv
+RADAR,20,S BAND DWR CHERRAPUNJI,14,RSCHR,"L2B_STD_MAXZ.gif,L2B_STD_PPIZ.gif,L2B_STD_PPIS.gif,L2B_STD_PPIV.gif,L2B_STD_SRI.gif,L2B_STD_HWV.gif",337,RSCHR_L2B_STD,DWR Data for Cheerapunji,2016-05-20,2022-11-05,10 minutes,L2B,C, - ,,0,Active
+RADAR,20,S BAND DWR SHAR,13,RSSHR,"L2B_STD_MAXZ.gif,L2B_STD_PPIZ.gif,L2B_STD_PPIS.gif,L2B_STD_PPIV.gif,L2B_STD_SRI.gif,L2B_STD_HWV.gif",338,RSSHR_L2B_STD,DWR Data for SHAR,2018-08-30,2023-03-31,10 minutes,L2B,C, - ,,0,Active
+RADAR,20,TERLS C BAND,12,RCTLS,"L2B_STD_MAXZ.gif,L2B_STD_PPIZ.gif,L2B_STD_PPIS.gif,L2B_STD_PPIV.gif,L2B_STD_SRI.gif,L2B_STD_HWV.gif",321,RCTLS_L2B_STD,Standard products from TERLS Doppler weather radar received at every 10 minutes interval,2016-03-09,2025-08-11,10 minutes,L2B,C, - ,,0,Active
+RADAR,20,TERLS C BAND,12,,,322,RCTLS_L2C_VOL,"Volumetric gridded data of TERLS DWR,using DPRF mode files only,containing corrected reflectivity(DBZ) and radial velocity(VEL)",2023-09-01,2025-08-11,10 minutes,L2C,C, - ,,0,Active

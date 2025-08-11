@@ -1,0 +1,6 @@
+satellite_name,satellite_id,sensor_name,sensor_id
+In-situ,9999,AMS,8
+In-situ,9999,AWS,2
+In-situ,9999,AWSAGRI,4
+In-situ,9999,AWSUPG,21
+In-situ,9999,IMDAWS,10
