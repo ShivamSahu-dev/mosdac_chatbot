@@ -1,8 +1,13 @@
 """
 MOSDAC Data Utility Package
 
-This package provides utilities for fetching and processing satellite data from MOSDAC.
+This package provides utilities for fetching and processing satellite data and scraping rss data from MOSDAC. 
 """
+
+from .rss_utils import (
+    rss_scraper
+    )  
+
 
 from .data_utils import (
     fetch_satellite_data,

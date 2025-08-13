@@ -5,8 +5,11 @@ description = "scraping important data from mosdac"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
+    "feedparser>=6.0.11",
+    "jupyterlab>=4.4.5",
+    "notebook>=7.4.5",
     "pandas>=2.3.1",
     "requests>=2.32.4",
 ]
-authors = [{ name = "shivam sahu", email = None }]
+authors = [{ name = "shivam sahu", email = nan }]
 license = { text = "MIT" }
