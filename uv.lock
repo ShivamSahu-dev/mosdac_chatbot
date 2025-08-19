@@ -743,6 +743,7 @@ name = "mosdac-data-scraping"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
+    { name = "beautifulsoup4" },
     { name = "feedparser" },
     { name = "jupyterlab" },
     { name = "notebook" },
@@ -752,6 +753,7 @@ dependencies = [
 
 [package.metadata]
 requires-dist = [
+    { name = "beautifulsoup4", specifier = ">=4.13.4" },
     { name = "feedparser", specifier = ">=6.0.11" },
     { name = "jupyterlab", specifier = ">=4.4.5" },
     { name = "notebook", specifier = ">=7.4.5" },

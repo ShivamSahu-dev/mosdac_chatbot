@@ -1,0 +1,23 @@
+[
+    {
+        "title": "OCM_AOD_ATBD",
+        "url": "https://www.mosdac.gov.in/docs/OCM_AOD_ATBD V1_1.pdf",
+        "size": "2.67MB",
+        "format": "PDF",
+        "tool": "PDFViewer"
+    },
+    {
+        "title": "OCM_AnalysedCHL_GlobalOcean_ATBD",
+        "url": "https://www.mosdac.gov.in/docs/ATBD_AnalysedCHL_GlobalOcean.pdf",
+        "size": "2.5MB",
+        "format": "PDF",
+        "tool": "PDFViewer"
+    },
+    {
+        "title": "OCM_IOPS_ATBD",
+        "url": "https://www.mosdac.gov.in/docs/OCM_IOPS_ATBD.pdf",
+        "size": "1.2MB",
+        "format": "PDF",
+        "tool": "PDFViewer"
+    }
+]

@@ -1,0 +1,65 @@
+[
+    {
+        "title": "Product Format Compatability with COTS package",
+        "url": "https://www.mosdac.gov.in/docs/INSAT3D_COTS.pdf",
+        "size": "796 KB",
+        "format": "PDF",
+        "tool": "PDFViewer"
+    },
+    {
+        "title": "ATBD Document",
+        "url": "https://www.mosdac.gov.in/docs/INSAT_3D_ATBD_MAY_2015.pdf",
+        "size": "9.8 MB",
+        "format": "PDF",
+        "tool": "PDFViewer"
+    },
+    {
+        "title": "Revised ATBD Document for SST",
+        "url": "https://www.mosdac.gov.in/docs/ATBD_INSAT-3D_SST_REV_V1.1.pdf",
+        "size": "1.4 MB",
+        "format": "PDF",
+        "tool": "PDFViewer"
+    },
+    {
+        "title": "Incremental ATBD Document",
+        "url": "https://www.mosdac.gov.in/docs/Incremental-ATBD-12Feb2020.pdf",
+        "size": "5.2 MB",
+        "format": "PDF",
+        "tool": "PDFViewer"
+    },
+    {
+        "title": "Format Document",
+        "url": "https://www.mosdac.gov.in/docs/INSAT3D_Products.pdf",
+        "size": "903 KB",
+        "format": "PDF",
+        "tool": "PDFViewer"
+    },
+    {
+        "title": "Product Catalogue",
+        "url": "https://www.mosdac.gov.in/docs/V1_INSAT3D_ProductTypes%20and%20ProcessingLevel.pdf",
+        "size": "229 KB",
+        "format": "PDF",
+        "tool": "PDFViewer"
+    },
+    {
+        "title": "INSAT Product Version Information",
+        "url": "https://www.mosdac.gov.in/docs/INSAT_Product_Version_information_V01.pdf",
+        "size": "1.61 MB",
+        "format": "PDF",
+        "tool": "PDFViewer"
+    },
+    {
+        "title": "ATBD_HEM_rain_revised",
+        "url": "https://www.mosdac.gov.in/docs/HEM_rain-revised-atbd.pdf",
+        "size": "2.14 MB",
+        "format": "PDF",
+        "tool": "PDFViewer"
+    },
+    {
+        "title": "Revised ATBD for AOD",
+        "url": "https://www.mosdac.gov.in/docs/INSAT_AOD_ATBD_revised.doc.pdf",
+        "size": "296KB",
+        "format": "PDF",
+        "tool": "PDFViewer"
+    }
+]

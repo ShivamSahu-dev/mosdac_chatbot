@@ -1,0 +1,23 @@
+[
+    {
+        "title": "Analysed-Winds",
+        "url": "https://www.mosdac.gov.in/docs/Analysed-Winds.pdf",
+        "size": "583 KB",
+        "format": "PDF",
+        "tool": "PDFViewer"
+    },
+    {
+        "title": "High Spatial density winds",
+        "url": "https://www.mosdac.gov.in/docs/High_Spatial_density_winds.pdf",
+        "size": "145 KB",
+        "format": "PDF",
+        "tool": "PDFViewer"
+    },
+    {
+        "title": "ATBD_SCAT_V1",
+        "url": "https://www.mosdac.gov.in/docs/ATBD_SCAT_v1_fuldoc2.pdf",
+        "size": "1.02 MB",
+        "format": "PDF",
+        "tool": "PDFViewer"
+    }
+]

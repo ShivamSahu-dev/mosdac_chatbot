@@ -5,6 +5,7 @@ description = "scraping important data from mosdac"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
+    "beautifulsoup4>=4.13.4",
     "feedparser>=6.0.11",
     "jupyterlab>=4.4.5",
     "notebook>=7.4.5",
