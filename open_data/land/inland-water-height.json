@@ -1,0 +1,167 @@
+{
+    "1": {
+        "sr_no": "1",
+        "metadata_element": "Metadata language",
+        "definition": "English",
+        "children": null
+    },
+    "2": {
+        "sr_no": "2",
+        "metadata_element": "Metadata Contact",
+        "definition": "MOSDAC",
+        "children": null
+    },
+    "3": {
+        "sr_no": "3",
+        "metadata_element": "Metadata date",
+        "definition": "March 05, 2015",
+        "children": null
+    },
+    "4": {
+        "sr_no": "4",
+        "metadata_element": "Data Lineage or Quality",
+        "definition": "Water height estimation over inland water bodies using radar altimeters",
+        "children": null
+    },
+    "5": {
+        "sr_no": "5",
+        "metadata_element": "Title",
+        "definition": "Inland Water Bodies Monitoring using Satellite Altimetry over Indian Region",
+        "children": null
+    },
+    "6": {
+        "sr_no": "6",
+        "metadata_element": "Abstract",
+        "definition": "Inland water bodies? heightshave been estimated using SARAl-Altika and Jason-2 data over the two test sites, i.e. Ukai reservoir and Brahmaputra River (10 sites from upstream to downstream locations within the Indian region). The results were matched with the in-situ data collected from the GPS field trips and observed data collected from IWAI and CWC. In the first phase results of these two sites are presented herewith. Such 29 inland water bodies with (49 locations) are being done in the phase manner",
+        "children": null
+    },
+    "7": {
+        "sr_no": "7",
+        "metadata_element": "Dataset Contact",
+        "definition": "Shard Chander and D Gangulay, PMD/BPSG/EPSA, Praveen Gupta and Amit Dubey, EHD/BPSG/EPSA SAC (ISRO), Ahmedabad-380015, India. Ph: +91 79 2691 4138. Email:pkgupta@sac.isro.gov.in;schander@sac.isro.gov.in",
+        "children": null
+    },
+    "8": {
+        "sr_no": "8",
+        "metadata_element": "Update frequency",
+        "definition": "Near real time after the altimeter pass over the study area (35 days repetivity)",
+        "children": null
+    },
+    "9": {
+        "sr_no": "9",
+        "metadata_element": "Access Rights or Restriction",
+        "definition": "Open Access",
+        "children": null
+    },
+    "10": {
+        "sr_no": "10",
+        "metadata_element": "Spatial Resolution",
+        "definition": "NA",
+        "children": null
+    },
+    "11": {
+        "sr_no": "11",
+        "metadata_element": "Language",
+        "definition": "English",
+        "children": null
+    },
+    "12": {
+        "sr_no": "12",
+        "metadata_element": "Topic Category",
+        "definition": "Inland water bodies monitoring",
+        "children": null
+    },
+    "13": {
+        "sr_no": "13",
+        "metadata_element": "Keywords",
+        "definition": "Rivers/reservoirs, Satellite altimetry, waveform retracking, geophysical range corrections, water levels",
+        "children": null
+    },
+    "14": {
+        "sr_no": "14",
+        "metadata_element": "Date or period",
+        "definition": "Since launch of SARAL-Altika (February 2013)",
+        "children": null
+    },
+    "15": {
+        "sr_no": "15",
+        "metadata_element": "Responsible Party",
+        "definition": "Dr.Prakash Chauhan, Biological and Planetary Sciences Group, EPSA, Space Applications Centre (ISRO), Ahmedabad-380015, India",
+        "children": null
+    },
+    "16": {
+        "sr_no": "16",
+        "metadata_element": "Organization",
+        "definition": "Space Applications Centre (ISRO), Ahmedabad, India",
+        "children": {
+            "16a": {
+                "sr_no": "16a",
+                "metadata_element": "Org. role",
+                "definition": "Retrieval of water level using Remote sensing techniques"
+            },
+            "16b": {
+                "sr_no": "16b",
+                "metadata_element": "Individual name",
+                "definition": "D. Ram Rajak, OSD/AOSG/EPSA, SAC (ISRO), Ahmedabad-380015, India. Ph: +91 79 2691 6051. Email:rajakdr@sac.isro.gov.in"
+            },
+            "16c": {
+                "sr_no": "16c",
+                "metadata_element": "Position",
+                "definition": "Scientist/Engineer, OSD/AOSG/EPSA, SAC (ISRO), Ahmedabad-380015, India. Ph: +91 79 2691 6051. Email:rajakdr@sac.isro.gov.in"
+            },
+            "16d": {
+                "sr_no": "16d",
+                "metadata_element": "Vertical Extent (minimumValue, maximumValue, unitOfMeasure, vertical datum)",
+                "definition": "Default value =NaN Unitofmeasurement= meter Datum: WGS84"
+            }
+        }
+    },
+    "17": {
+        "sr_no": "17",
+        "metadata_element": "Geographic Extent",
+        "definition": "UL Coordinates: 40N, 65E. UR Coordinates: 40N, 100E. LL Coordinates: 5, 65E. LR Coordinates: 5, 100E.",
+        "children": null
+    },
+    "18": {
+        "sr_no": "18",
+        "metadata_element": "Geographic name, geographic Identifier",
+        "definition": "Indian Region",
+        "children": null
+    },
+    "19": {
+        "sr_no": "19",
+        "metadata_element": "Bounding box",
+        "definition": "UL Coordinates: 40N, 65E. UR Coordinates: 40N, 105E. LL Coordinates: 5, 65E. LR Coordinates: 5, 105E.",
+        "children": null
+    },
+    "20": {
+        "sr_no": "20",
+        "metadata_element": "Temporal Extent",
+        "definition": "Historical time series plot of water heights over inland water body since the availability of altimeter measurement",
+        "children": null
+    },
+    "21": {
+        "sr_no": "21",
+        "metadata_element": "Access Rights or Restrictions",
+        "definition": "Open Access",
+        "children": null
+    },
+    "22": {
+        "sr_no": "22",
+        "metadata_element": "Distribution Information",
+        "definition": "Online download in text, and PNG formats",
+        "children": null
+    },
+    "23": {
+        "sr_no": "23",
+        "metadata_element": "Processing Level",
+        "definition": "Level 3 (Data product derived from altimeter IGDR/GDR product)",
+        "children": null
+    },
+    "24": {
+        "sr_no": "24",
+        "metadata_element": "Reference System",
+        "definition": "Datum: WGS84",
+        "children": null
+    }
+}

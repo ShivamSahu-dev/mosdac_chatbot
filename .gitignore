@@ -11,3 +11,7 @@ wheels/
 
 # Jupyter Notebook checkpoints
 .ipynb_checkpoints/
+
+# testing scripts and data
+testing_data/
+testing_scripts/

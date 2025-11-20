@@ -1,0 +1,167 @@
+{
+    "1": {
+        "sr_no": "1",
+        "metadata_element": "Metadata language",
+        "definition": "English",
+        "children": null
+    },
+    "2": {
+        "sr_no": "2",
+        "metadata_element": "Metadata Contact",
+        "definition": "MOSDAC",
+        "children": null
+    },
+    "3": {
+        "sr_no": "3",
+        "metadata_element": "Metadata date",
+        "definition": "November, 2017",
+        "children": null
+    },
+    "4": {
+        "sr_no": "4",
+        "metadata_element": "Data Lineage or Quality",
+        "definition": "GPS-derived Integrated Water Vapor.",
+        "children": null
+    },
+    "5": {
+        "sr_no": "5",
+        "metadata_element": "Title",
+        "definition": "GPS-derived Integrated Water Vapor (Indian region)",
+        "children": null
+    },
+    "6": {
+        "sr_no": "6",
+        "metadata_element": "Abstract",
+        "definition": "This dataset contains Integrated Water Vapor (IWV) estimates derived from GPS receivers that comprise the GAGAN TEC network. These receivers have been installed at airports at various locations in India. The Zenith Tropospheric Delay was estimated from the GPS observations using the GAMIT software. Further, IWV was estimated from the ZTD values using surface temperature and pressure from ERA-I reanalysis as additional inputs. The GAGAN-IWV estimates for 1 year – March 2013 to February 2014 – have currently been made available.",
+        "children": null
+    },
+    "7": {
+        "sr_no": "7",
+        "metadata_element": "Dataset Contact",
+        "definition": "Kaushik Gopalan, GRD/AOSG/EPSA, Space Applications Centre (ISRO), Ahmedabad, 380015,kaushikg@sac.isro.gov.in",
+        "children": null
+    },
+    "8": {
+        "sr_no": "8",
+        "metadata_element": "Update Frequency",
+        "definition": "1 year of GPS-derived IWV is now available. Further data will be added intermittently in caches of 1 year each.",
+        "children": null
+    },
+    "9": {
+        "sr_no": "9",
+        "metadata_element": "Access Rights or Restriction",
+        "definition": "Open Access",
+        "children": null
+    },
+    "10": {
+        "sr_no": "10",
+        "metadata_element": "Spatial Resolution",
+        "definition": "Point data",
+        "children": null
+    },
+    "11": {
+        "sr_no": "11",
+        "metadata_element": "Language",
+        "definition": "English",
+        "children": null
+    },
+    "12": {
+        "sr_no": "12",
+        "metadata_element": "Topic Category",
+        "definition": "GNSS meteorology",
+        "children": null
+    },
+    "13": {
+        "sr_no": "13",
+        "metadata_element": "Keywords",
+        "definition": "GNSS meteorology, GPS meteorology, Integrated Water Vapor",
+        "children": null
+    },
+    "14": {
+        "sr_no": "14",
+        "metadata_element": "Date or period",
+        "definition": "March 2013 to February 2014",
+        "children": null
+    },
+    "15": {
+        "sr_no": "15",
+        "metadata_element": "Responsible Party",
+        "definition": "Kaushik Gopalan,GRD/AOGG/ EPSA, Space Applications Centre (ISRO), Ahmedabad-380015, India",
+        "children": null
+    },
+    "16": {
+        "sr_no": "16",
+        "metadata_element": "Organization",
+        "definition": "Space Applications Centre (ISRO), Ahmedabad, India",
+        "children": {
+            "16a": {
+                "sr_no": "16a",
+                "metadata_element": "Org. role",
+                "definition": "Geophysical parameters from satellite altimeter in the coastal region."
+            },
+            "16b": {
+                "sr_no": "16b",
+                "metadata_element": "Individual name",
+                "definition": "Kaushik Gopalan, GRD/AOSG/EPSA, SAC (ISRO), Ahmedabad-380015, India. Ph: +91 79 2691 6110. Email:kaushikg@sac.isro.gov.in"
+            },
+            "16c": {
+                "sr_no": "16c",
+                "metadata_element": "Position",
+                "definition": "Scientist/Engineer, GRD/AOSG/EPSA, SAC (ISRO), Ahmedabad-380015"
+            },
+            "16d": {
+                "sr_no": "16d",
+                "metadata_element": "Vertical Extent (minimumValue, maximumValue, unitOfMeasure, vertical datum)",
+                "definition": "NA"
+            }
+        }
+    },
+    "17": {
+        "sr_no": "17",
+        "metadata_element": "Geographic Extent",
+        "definition": "Indian Landmass",
+        "children": null
+    },
+    "18": {
+        "sr_no": "18",
+        "metadata_element": "Geographic name, geographic Identifier",
+        "definition": "Indian Landmass",
+        "children": null
+    },
+    "19": {
+        "sr_no": "19",
+        "metadata_element": "Bounding box",
+        "definition": "lat_min: 0N, lat_max: 30N, lon_min: 60E, lon_max: 100E",
+        "children": null
+    },
+    "20": {
+        "sr_no": "20",
+        "metadata_element": "Temporal Extent",
+        "definition": "March 2013 to February 2014",
+        "children": null
+    },
+    "21": {
+        "sr_no": "21",
+        "metadata_element": "Access Rights or Restrictions",
+        "definition": "Open Access",
+        "children": null
+    },
+    "22": {
+        "sr_no": "22",
+        "metadata_element": "Distribution Information",
+        "definition": "Online download of data files in ASCII format",
+        "children": null
+    },
+    "23": {
+        "sr_no": "23",
+        "metadata_element": "Processing Level",
+        "definition": "Level 2 (Data product derived from raw GPS data)",
+        "children": null
+    },
+    "24": {
+        "sr_no": "24",
+        "metadata_element": "Reference System",
+        "definition": "Datum: WGS84",
+        "children": null
+    }
+}

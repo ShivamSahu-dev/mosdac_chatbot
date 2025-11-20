@@ -1,0 +1,161 @@
+{
+    "1": {
+        "sr_no": "1",
+        "metadata_element": "Metadata language",
+        "definition": "English",
+        "children": null
+    },
+    "2": {
+        "sr_no": "2",
+        "metadata_element": "Metadata Contact",
+        "definition": "MOSDAC",
+        "children": null
+    },
+    "3": {
+        "sr_no": "3",
+        "metadata_element": "Metadata date",
+        "definition": "May, 2018",
+        "children": null
+    },
+    "4": {
+        "sr_no": "4",
+        "metadata_element": "Reference System",
+        "definition": "Datum: WGS84",
+        "children": null
+    },
+    "5": {
+        "sr_no": "5",
+        "metadata_element": "Title",
+        "definition": "Reconstruction of Ocean interior density and horizontal velocity anomaly ﬁelds using Satellite data in Bay of Bengal",
+        "children": null
+    },
+    "6": {
+        "sr_no": "6",
+        "metadata_element": "Abstract",
+        "definition": "Satellite data has been used to reconstruct ocean interior density and velocity anomalies in the Bay of Bengal through the “interior + surface Quasigeostrophic” (isQG) method. The inputs are sea surface height anomaly (AVISO), sea surface density anomaly; which is calculated using GHRSST sea surface temperature and SMAP sea surface salinity. One more input is the Brunt-Vaisala frequency, calculated from in-situ analysis system (ISAS) climatological data. The results show that isQG retrieved subsurface density anomalies are very promising compared to RAMA buoy data in the cold season when EKE is minimum. Validation of retrieved density has also been performed using ARGO data which reveals that isQG is more promising when the stratification is weak .",
+        "children": null
+    },
+    "7": {
+        "sr_no": "7",
+        "metadata_element": "Dataset Contact",
+        "definition": "Anup Kumar Mandal, OSD/AOSG/EPSA, Space Applications Centre (ISRO), Ahmedabad, 380015,anupmandal@sac.isro.gov.in",
+        "children": null
+    },
+    "8": {
+        "sr_no": "8",
+        "metadata_element": "Update Frequency",
+        "definition": "Six months.",
+        "children": null
+    },
+    "9": {
+        "sr_no": "9",
+        "metadata_element": "Access Rights or Restriction",
+        "definition": "Open Access",
+        "children": null
+    },
+    "10": {
+        "sr_no": "10",
+        "metadata_element": "Spatial Resolution",
+        "definition": "Spatial resolution is 25 km, while vertical resolution is 10m",
+        "children": null
+    },
+    "11": {
+        "sr_no": "11",
+        "metadata_element": "Language",
+        "definition": "English",
+        "children": null
+    },
+    "12": {
+        "sr_no": "12",
+        "metadata_element": "Topic Category",
+        "definition": "Ocean subsurface product (SAMUDRA Project) using satellite data.",
+        "children": null
+    },
+    "13": {
+        "sr_no": "13",
+        "metadata_element": "Keywords",
+        "definition": "Density anomaly, Velocity anomaly, subsurface fields, 3D-Ocean fields",
+        "children": null
+    },
+    "14": {
+        "sr_no": "14",
+        "metadata_element": "Date or period",
+        "definition": "January 2017 - till date",
+        "children": null
+    },
+    "15": {
+        "sr_no": "15",
+        "metadata_element": "Responsible Party",
+        "definition": "Anup Kumar Mandal,OSD/AOGG/ EPSA, Space Applications Centre (ISRO), Ahmedabad-380015, India",
+        "children": null
+    },
+    "16": {
+        "sr_no": "16",
+        "metadata_element": "Organization",
+        "definition": "Space Applications Centre (ISRO), Ahmedabad, India",
+        "children": {
+            "16a": {
+                "sr_no": "16a",
+                "metadata_element": "Org. role",
+                "definition": "Geophysical parameters from satellite data in the Bay of Bengal region."
+            },
+            "16b": {
+                "sr_no": "16b",
+                "metadata_element": "Individual name",
+                "definition": "Anup Kumar Mandal, OSD/AOSG/EPSA, SAC (ISRO), Ahmedabad-380015, India. Ph: +91 79 2691 6117. Email:anupmandal@sac.isro.gov.in"
+            },
+            "16c": {
+                "sr_no": "16c",
+                "metadata_element": "Position",
+                "definition": "Scientist/Engineer, OSD/AOSG/EPSA, SAC (ISRO), Ahmedabad-380015"
+            },
+            "16d": {
+                "sr_no": "16d",
+                "metadata_element": "Vertical Extent (minimumValue, maximumValue, unitOfMeasure, vertical datum)",
+                "definition": "Lat_min : 05N Lat_max : 25 N Lon_min: 75E Lon_max: 95 E"
+            }
+        }
+    },
+    "17": {
+        "sr_no": "17",
+        "metadata_element": "Geographic Extent",
+        "definition": "Indian Landmass",
+        "children": null
+    },
+    "18": {
+        "sr_no": "18",
+        "metadata_element": "Geographic name, geographic Identifier",
+        "definition": "Bay of Bengal",
+        "children": null
+    },
+    "19": {
+        "sr_no": "19",
+        "metadata_element": "Bounding box",
+        "definition": "Lat_min : 05N Lat_max : 25 N Lon_min: 75E Lon_max: 95 E",
+        "children": null
+    },
+    "20": {
+        "sr_no": "20",
+        "metadata_element": "Temporal Extent",
+        "definition": "January 2017 till date",
+        "children": null
+    },
+    "21": {
+        "sr_no": "21",
+        "metadata_element": "Access Rights or Restrictions",
+        "definition": "Open Access",
+        "children": null
+    },
+    "22": {
+        "sr_no": "22",
+        "metadata_element": "Distribution Information",
+        "definition": "Online download of data files in netCDF format",
+        "children": null
+    },
+    "23": {
+        "sr_no": "23",
+        "metadata_element": "Processing Level",
+        "definition": "Level 4",
+        "children": null
+    }
+}
