@@ -1,0 +1,41 @@
+[
+    {
+        "title": "Data Access",
+        "text": "Click Here to access the Science Products . Request to use MOSDAC Single Sign On user credentials to download the data.",
+        "links": [
+            "https://mosdac.gov.in//opendata/gps_water_vapour/"
+        ]
+    },
+    {
+        "title": "Data Version",
+        "text": "Version 1.0 (beta)"
+    },
+    {
+        "title": "Data Sources",
+        "text": "GPS receivers from GAGAN TEC Network"
+    },
+    {
+        "title": "Processing Steps",
+        "text": "GAMIT software used to derive Zenith Tropspheric Delay (ZTD) Integrated Water Vapor (IWV) derived using procedure described in Bevis et. al. (1992)"
+    },
+    {
+        "title": "References",
+        "text": "M. Bevis, S. Businger, T. A. Herring, C. Rocken, R. A. Anthes, and R. H. Ware, “GPS Meteorology: Remote sensing of atmospheric water vapor using global positioning system,” J. Geophys. Res., vol. 97, pp. 15, 787-15, 801, 1992. Herring, T. A., R. W. King, and S. C. McClusky. \"Introduction to Gamit/Globk.\" Massachusetts Institute of Technology, Cambridge (2008). Acharya, R., M. R. Sivaraman, K. Bandyopadhyay, N. Nagori, S. Sunda, and S. Regar (2007), Ionospheric studies for the implementation of GAGAN, Ind. J. Radio Space Phys., 36 (5), 394–404. Sunda, S., R. Sridharan, B. M. Vyas, P. V. Khekale, K. S. Parikh, A. S. Ganeshan, C. R. Sudhir, S. V. Satish, and M. S. Bagiya (2015), Satellite-based augmentation systems: A novel and cost-effective tool for ionospheric and space weather studies, Space Weather, 13, doi:10.1002/2014SW001103."
+    },
+    {
+        "title": "Derivation Techniques and Algorithm",
+        "text": "Described in the report titled “Demonstration of GNSS-based short-range forecasting of rainfall”"
+    },
+    {
+        "title": "Limitations",
+        "text": "The IWV estimates constitute a conical average of variable shape and orientation depending on the location of available GPS satellites."
+    },
+    {
+        "title": "Known problems with data",
+        "text": "No known issues at this time."
+    },
+    {
+        "title": "File Naming Convention",
+        "text": "ASCII files: Currently, the data for 1 year is provided in the file gagan_iwv_v1.txt"
+    }
+]

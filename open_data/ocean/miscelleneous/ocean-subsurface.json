@@ -1,0 +1,47 @@
+[
+    {
+        "title": "Data Access",
+        "text": "Click Here to access the Science Products . Request to use MOSDAC Single Sign On user credentials to download the data.",
+        "links": [
+            "https://mosdac.gov.in//opendata/ocean_subsurface_fields/"
+        ]
+    },
+    {
+        "title": "Data Version",
+        "text": "Version 1.0 (beta)"
+    },
+    {
+        "title": "Data Sources",
+        "text": "Reynold's Optimum Interpolated Sea Surface Temperature (OISST) ( https://www.ncdc.noaa.gov/oisst ) SMAP sea surface salinity (SSS) ( https://smap.jpl.nasa.gov/data/ ). AVISO sea surface height (SSH) ( https://www.aviso.altimetry.fr/en/data.html ). ISAS-13 temperature/salinity profile ( https://annuaire.ifremer.fr/cv/16058 ).",
+        "links": [
+            "https://www.ncdc.noaa.gov/oisst",
+            "https://smap.jpl.nasa.gov/data/",
+            "https://www.aviso.altimetry.fr/en/data.html",
+            "https://annuaire.ifremer.fr/cv/16058"
+        ]
+    },
+    {
+        "title": "Processing Steps",
+        "text": "Climatological temperature, salinity (T/S) fields are calculated from ISAS-13 data. Also Brunt-Viasala frequency(N) is calculated. Monthly Sea surface density anomaly(SSDA) is calculated from GHRSST, SMAP and ISAS-Climatology. Monthly sea surface height anomaly(SSHA) is calculated using AVISO data. Using interior + surface Quasi-Geostrophic(isQG) methodology, taking Barotropic and first Baroclinic modes, and taking SSHA and SSDA as boundary conditions, ocean interior density and velocity anomaly are reconstructed."
+    },
+    {
+        "title": "References",
+        "text": "Liu, L., S. Peng, and R. X. Huang (2017), Reconstruction of ocean’s interior from observed sea surface information, J. Geophys. Res. Oceans, 122, 1042– 1056, doi:10.1002/2016JC011927. Wang, J., G. Flierl, J. LaCasce, J. McClean, and A. Mahadevan (2013), Reconstructing the ocean’s interior from surface data, J. Phys. Oceanogr., 43, 1611–1626, doi:10.1175/JPO-D-12-0204.1. Scott, R. B., and D. G. Furnival, 2012: Assessment of traditional and new eigen-function bases applied to extrapolation of surface geostrophic current time series to below the surface in an idealized primitive equation simulation. J. Phys. Oceanogr., 42, 165–178. Smith, K. S., and G. K. Vallis, 2001: The scales and equilibration of mid-ocean eddies: Freely evolving ﬂow. J. Phys. Oceanogr., 31, 554–571. Pedlosky, J., 1987: Geophysical Fluid Dynamics. 2nd ed. Springer Verlag, 710 pp. Lapeyre, G., 2009: What vertical mode does the altimeter reﬂect? On the decomposition in baroclinic modes and on a surface trapped mode. J. Phys. Oceanogr., 39, 2857–2874. P. Klein, 2006: Dynamics of the upper oceanic layers in terms of surface quasi-geostrophy theory. J. Phys. Oceanogr., 36, 165–176."
+    },
+    {
+        "title": "Derivation Techniques and Algorithm",
+        "text": "The algorithm is called interior + surface Quasi-Geostrophic(isQG) method. User should refer doi:10.1175/JPO-D-12-0204.1."
+    },
+    {
+        "title": "Limitations",
+        "text": "This method is only applicable in a region where the Coriolis parameter does not change abruptly. Also it is not applicable on the equator. Vertical movement is ignored in isQG framework. isQG method works well when the eddy kinetic energy (EKE) is low. If EKE is large, it will fail to generate accurate subsurface fields. We considered the Barotropic and the first Baroclinic modes only in our analysis. This certainly limits our approach. This method generates less satisfactory subsurface fields if the stratification is strong. The vertical resolution in our case is 10 m. This is a major drawback since in Bay of Bengal, the mixed layer can be as shallow as 15-20 m."
+    },
+    {
+        "title": "Known problems with data",
+        "text": "Data problems due to bad weather (heavy rain) and extreme events like cyclones etc."
+    },
+    {
+        "title": "File Naming Convention",
+        "text": "Netcdf file: isQG_yyyy.nc"
+    }
+]

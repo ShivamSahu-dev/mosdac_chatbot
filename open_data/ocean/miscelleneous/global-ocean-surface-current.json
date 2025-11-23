@@ -1,0 +1,122 @@
+[
+    {
+        "title": "Data Access",
+        "text": "Click Here to access the Science Products . Request to use MOSDAC Single Sign On user credentials to download the data.",
+        "links": [
+            "https://mosdac.gov.in//opendata/ocean_surface_current/"
+        ]
+    },
+    {
+        "title": "Data Version",
+        "text": "Version 1.0 (beta)"
+    },
+    {
+        "title": "Data Sources",
+        "text": "The daily gridded map of Absolute Dynamic Topography data is obtained from AVISO/DUACS ftp site ( ftp://ftp.aviso.oceanobs.com ) The daily gridded ocean surface vector wind data from ASCAT is obtained from ftp://ftp.ifremer.fr/ifremer/cersat/products/gridded/MWF/L3/ASCAT/Daily The daily gridded SST data of Reynolds OISST is obtained from ftp://eclipse.ncdc.noaa.gov/pub/OI-daily-v2/NetCDF",
+        "links": [
+            "ftp://ftp.aviso.oceanobs.com",
+            "ftp://ftp.ifremer.fr/ifremer/cersat/products/gridded/MWF/L3/ASCAT/Daily",
+            "ftp://eclipse.ncdc.noaa.gov/pub/OI-daily-v2/NetCDF"
+        ]
+    },
+    {
+        "title": "Data Citation",
+        "text": "This dataset may be cited as \"MOSDAC ( http://www.mosdac.gov.in )\",(Sikhakolli et al., 2013). Sikhakolli, R., R. Sharma, R. Kumar, B. S. Gohil, A. Sarkar, K. V. S. R. Prasad and S. Basu, Improved determination of Indian Ocean surface currents using satellite data, Rem. Sens. Lett., 4, 335-343, 2013.",
+        "links": [
+            "http://www.mosdac.gov.in"
+        ]
+    },
+    {
+        "title": "Processing Steps",
+        "text": "Using the daily gridded data of MADT, Vector winds and SST data the Geostrophic, wind driven and buoyancy components of the ocean surface current respectively are first calculated for the off-equatorial regions (3°N to 90°N and 3°S to 90°S). Using the polynomial expansion the equatorial currents (±3° latitude band) are derived. The daily ocean surface current at 0.25° resolution is then derived by applying a linear weighted average procedure to the equatorial and off equatorial current solutions with in the latitude band of ± 3° to ± 4° band."
+    },
+    {
+        "title": "References",
+        "text": "Bentamy A..; D. Croize-Fillon, 2011: Gridded surface wind fields from Metop/ASCAT measurements. Inter. Journal of Remote Sensing. DOI 10.1080/01431161.2011.600348. Bonjean, F, and G. S. E. Lagerloef (2002), Diagnostic model and analysis of the surface currents in the tropical Pacific Ocean., J. Phys. Oceanogr., 32, 2938-2954. Reynolds, R. W., T. M. Smith,_C. Liu, D. B. Chelton, K. S. Casey, and M. G. Schlax (2007), Daily high-resolution-blended analyses for sea surface temperature, J. Climate., 20, 5473-5496. Sikhakolli, R., R. Sharma, S. Basu, B. S. Gohil, A. Sarkar and K. V. S. Prasad, Evaluation of OSCAR ocean surface current product in the tropical Indian Ocean using in situ data , J. Earth Syst. Sci., 2013. Sikhakolli, R., R. Sharma, R. Kumar, B. S. Gohil, A. Sarkar, K. V. S. R. Prasad and S. Basu, Improved determination of Indian Ocean surface currents using satellite data, Rem. Sens. Lett., 4, 335-343, 2013. SSALTO/DUACS user hand book: (M)SLA and (M)ADT Near Real Time and Delayed Time products, AVISO, Nov 2009."
+    },
+    {
+        "title": "Derivation Techniques and Algorithm",
+        "text": "The methodology follows the work of Bonjean and Lagerloef (2002). The basic equations are those of quasi linear and steady flow in a surface layer where the horizontal velocity $\\mathbf{U} = (u,v)$ is allowed to vary with vertical coordinate $z$, and where vertical turbulent mixing is characterized by an eddy viscosity $A$ uniform with depth. The vertical shear $U_z$ reaches zero at a constant scaling depth $z = - H$. Using complex notations $\\mathbf{U}(x,y,z,t) = u + i v$ and $\\nabla = \\partial/\\partial x + i \\partial/\\partial y$, the basic equations are:",
+        "equations": [
+            {
+                "label": "(1a)",
+                "description": "Basic Momentum Equation",
+                "formula": "$i f \\mathbf{U} = - (1/\\rho_m) \\nabla p + A \\mathbf{U}_{zz}$"
+            },
+            {
+                "label": "(1b)",
+                "description": "Hydrostatic Balance",
+                "formula": "$ (1/\\rho_m) p_z = -g + \\nabla \\theta $"
+            },
+            {
+                "label": "(1c)",
+                "description": "Thermal Expansion",
+                "formula": "$ \\nabla \\theta = g \\chi_T \\nabla \\text{SST} $"
+            }
+        ],
+        "boundary_conditions": [
+            {
+                "label": "(2a)",
+                "description": "Surface Wind Stress Condition (at z=0)",
+                "formula": "$ \\mathbf{U}_z(z=0) = \\mathbf{\\tau} / A $"
+            },
+            {
+                "label": "(2b)",
+                "description": "Zero Shear Condition (at z=-H)",
+                "formula": "$ \\mathbf{U}_z(z = -H) = 0 $"
+            }
+        ],
+        "constants_and_parameters": {
+            "depth_range": "$ -H \\le z \\le 0 $",
+            "constants": [
+                { "name": "Characteristic density", "symbol": "$\\rho_m$", "value": "$ 1025 \\text{ kg } \\text{m}^{-3} $" },
+                { "name": "Acceleration due to gravity", "symbol": "$g$", "value": "$ 9.8 \\text{ m } \\text{s}^{-2} $" },
+                { "name": "Coefficient of thermal expansion", "symbol": "$ \\chi_T $", "value": "$ 3 \\times 10^{-4} \\text{ K}^{-1} $" },
+                { "name": "Scaling depth", "symbol": "$H$", "value": "$ 70 \\text{ m} $" }
+            ],
+            "wind_stress": {
+                "symbol": "$\\mathbf{\\tau}$",
+                "description": "$ \\tau_x + i \\tau_y $ (surface wind stress divided by $ \\rho_m $)"
+            },
+            "eddy_viscosity_A": {
+                "description": "The parameter $A$ is chosen by the empirical formulation: $ A = a (|W|/W_1)^b $",
+                "values": [
+                    { "symbol": "$W_1$", "value": "$ 1 \\text{ m } \\text{s}^{-1} $" },
+                    { "symbol": "$a$", "value": "$ 8 \\times 10^{-5} \\text{ m}^2 \\text{s}^{-1} $" },
+                    { "symbol": "$b$", "value": "$ 2.2 $" }
+                ]
+            }
+        },
+        "velocity_shear_equation": {
+            "label": "(3)",
+            "description": "The equation for the velocity shear is a second-order differential equation in velocity shear $U_z$, subject to the boundary conditions (2a,b).",
+            "formula": "$ \\mathbf{U}_{zz} - (i f/A) \\mathbf{U} = (1/A)\\nabla \\theta $"
+        },
+        "surface_velocity": {
+            "label": "(4)",
+            "description": "After solving for the shear profiles, an expression for the velocity at the surface is:",
+            "formula": "$ i f \\mathbf{U}_0 = -g \\nabla \\zeta + (1/H ) q(H/h_e) \\mathbf{\\tau} + ((H/2)/q(H/2 h_e))\\nabla \\theta $"
+        },
+        "function_q": {
+            "definition": "The function $q$ is defined by $ q (x) = x /\\tanh (x) $.",
+            "ekman_depth": "The term $ h_e = (A/i f)^{1/2} $ is complex and its modulus is proportional to the Ekman depth $ h_e \\approx \\sqrt{ 2A/|f|} $."
+        },
+        "conclusion": "Using equation (4) and the datasets mentioned above, the daily ocean surface currents were generated. Equatorial velocities ($\\pm 3°$ latitude band) are obtained by solving a weak formulation of the momentum equations using a basis set of orthogonal polynomials as described in Bonjean and Lagerloef (2002)."
+    },
+    {
+        "title": "Limitations",
+        "text": "As the equatorial currents are estimated through an approximation procedure using polynomial coefficients the correlation with in-situ currents in the equatorial region is observed to be relatively poorer especially for the meridional currents."
+    },
+    {
+        "title": "Known problems with data",
+        "text": "As these input satellite data are not very reliable near to the coast, the estimated currents very near to the coast may also have problems."
+    },
+    {
+        "title": "Related data collections",
+        "text": "OSCAR Currents: Bonjean, F, and G. S. E. Lagerloef (2002), Diagnostic model and analysis of the surface currents in the tropical Pacific Ocean., J. Phys. Oceanogr., 32, 2938-2954 GEKCO Currents: Joel Sudre, Christophe Maes and Veronique Garcon (2013), On the global estimates of geostrophic and Ekman surface currents. Limnology and Oceanography. DOI: 10.1215/21573689-2071927"
+    },
+    {
+        "title": "File Naming Convention",
+        "text": "The typical file name is 'ISRO_CURRENT_TOT_YYYYMMDD.nc' where 'ISRO_CURRENT' signifies that this product is generated at SAC-ISRO word 'TOT' signifies that this is the total current (Geostrophic + ageostrophic) 'YYYY' corresponds to the year, ex: 2015 'MM' corresponds to the month, ex: 09 'DD' corresponds to the date, ex: 26 All the data files are in NetCDF 4 format and the images are in gif format"
+    }
+]

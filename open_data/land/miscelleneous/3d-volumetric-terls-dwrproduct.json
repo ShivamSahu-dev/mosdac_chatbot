@@ -1,0 +1,29 @@
+[
+    {
+        "title": "Data Access",
+        "text": "Click Here to access the Science Products . Request to use MOSDAC Single Sign On user credentials to download the data.",
+        "links": [
+            "https://mosdac.gov.in//opendata/volumetric_dwr_product/"
+        ]
+    },
+    {
+        "title": "Data Version",
+        "text": "Version 1.0 (beta)"
+    },
+    {
+        "title": "Data Sources",
+        "text": "TERLS C-Band Doppler Weather Radar (dprf mode)"
+    },
+    {
+        "title": "Processing Steps",
+        "text": "Following are the three major processing steps : - The radar reflectivity data is corrected for clutter using a combination of spatial continuity filter and fuzzy-logic based echo classification algorithm. -  The radial velocity data is dealiased using a 2D multipass velocity dealiasing scheme based spatial continuity of velocity fields -  The corrected reflectivity and radial velocity from all elevations is then gridded into a 3D volumetric grid having resolution of 250 x 1 km x 1 km."
+    },
+    {
+        "title": "Derivation Techniques and Algorithm",
+        "text": "Decluttering of Radar reflectivity and Dealiasing of radial velocity; 3D volumetric gridding of radar variables as explained in detail in the above mentioned reports."
+    },
+    {
+        "title": "File Naming Convention",
+        "text": "Netcdf file: yyyy_mm_dd_hh_mm_ss_dprf_corrected.nc PNG file: yyyy_mm_dd_hh_mm_ss_voldbz_preview.png yyyy_mm_dd_hh_mm_ss_volvel_preview.png"
+    }
+]

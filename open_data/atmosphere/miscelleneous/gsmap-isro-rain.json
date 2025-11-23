@@ -1,0 +1,44 @@
+[
+    {
+        "title": "Data Access",
+        "text": "Science products are available to download with a Single Sign On on MOSDAC. Click Here to access the data",
+        "links": [
+            "https://mosdac.gov.in//opendata/GSMaP_SAC_RAIN/"
+        ]
+    },
+    {
+        "title": "Data Version",
+        "text": "Version 1.0 (beta)"
+    },
+    {
+        "title": "Data Sources",
+        "text": "GSMaP_MVK product, NOAA Climate Prediction Center (CPC) rainfall analysis, CPC Infrared brightness temperature, IMD gridded rain (0.25 degree), etc."
+    },
+    {
+        "title": "Processing Steps",
+        "text": "-For gauge adjustment, the software used was JAXA MCD_V05.02, based upon Mega et al. (2019). -Merging NOAA CPC and Indian gauges was accomplished using Matlab software. -The algorithms pertaining to GSMaP_ISRO are provided in Kumar et al. (2022) in detail."
+    },
+    {
+        "title": "References",
+        "text": "Kubota, T., Aonashi, K., Ushio, T., Shige, S., Takayabu, Y. N., Kachi, M., and Oki, R. (2020). Global Satellite Mapping of Precipitation (GSMaP) products in the GPM era. Satellite Precipitation Measurement: Volume 1, 355-373. Kumar, P., Gairola, R., Kubota, T., and Kishtawal, C. (2021). Hybrid assimilation of satellite rainfall product with high density gauge network to improve daily estimation: A case of Karnataka, India. Journal of the Meteorological Society of Japan. Ser. II, 99(3), 741-763. Kumar, P., Varma, A. K., Kubota, T., Yamaji, M., Tashima, T., Mega, T., and Ushio, T. (2022). Long-Term High-Resolution Gauge Adjusted Satellite Rainfall Product Over India. Earth and Space Science, 9(12), e2022EA002595. Mega, T., Ushio, T., Matsuda, T., Kubota, T., Kachi, M., and Oki, R. (2019) Gauge-Adjusted Global Satellite Mapping of Precipitation, IEEE Trans. Geosci. Remote Sens, 57, 4, 1928-1935. Kumar, P., Srivastava, S.S., Jivani, N., Varma, A.K., Yokoyama, C. & Kubota, T. (2024) Long-term assessment of ERA5 reanalysis rainfall for lightning events over India observed by Tropical Rainfall Measurement Mission Lightning Imaging Sensor. Quarterly Journal of the Royal Meteorological Society, 150(761), 2472â€“2488. Available from: https://doi.org/10.1002/qj.4719",
+        "links": [
+            "https://doi.org/10.1002/qj.4719"
+        ]
+    },
+    {
+        "title": "Derivation Techniques and Algorithm",
+        "text": "The manuscript titled \"Long-Term High-Resolution Gauge Adjusted Satellite Rainfall Product Over India\" provides a description."
+    },
+    {
+        "title": "Limitations",
+        "text": "The number of gauge stations within a NOAA CPC pixel of 0.5 degree impacts the accuracy of the gauge-adjusted rainfall."
+    },
+    {
+        "title": "Known problems with data",
+        "text": "No known issues at this time."
+    },
+    {
+        "title": "File Naming Convention",
+        "text": "HDF5 file: Sample name : GPMMRG_MAP_YYMMDDHH00_H_L3S_MCH_03F.h5 YY - Year MM - Month DD - Day HH - Hour"
+    }
+]

@@ -1,0 +1,41 @@
+[
+    {
+        "title": "Data Access",
+        "text": "Click Here to access the Science Products. Request to use MOSDAC Single Sign On user credentials to download the data.",
+        "links": [
+            "https://mosdac.gov.in//opendata/bayesian_saphir_rainfall/"
+        ]
+    },
+    {
+        "title": "Data Version",
+        "text": "Version 1.1 (beta)"
+    },
+    {
+        "title": "Data Sources",
+        "text": "SAPHIR Level 1A TB data"
+    },
+    {
+        "title": "Processing Steps",
+        "text": "SAPHIR Level-1 brightness temperature of channel-6 (Tb6) and spatial variability of Tb6 (Std-tb6) within ±3 pixels (~30km at nadir and ~60km off nadir) is calculated. Bayesian algorithm is trained using GPM-IMERG half hourly rainfall Bayesian approach is applied to estimate rainfall from SAPHIR sounder observations."
+    },
+    {
+        "title": "References",
+        "text": "Kummerow, C.D., W. S. Olson, and L. Giglio, A simplified scheme for obtaining precipitation and vertical hydrometeor profiles from passive microwave sensors, IEEE Trans. Geosci. Remote Sens., vol. 34, no. 5, pp. 1213–1232, Sep. 1996. Pierdicca, N., F. S. Marzano, G. D’Auria, P. Basili, P. Ciotti, and A. Mugnai, Precipitation retrieval from spaceborne microwave radiometers using maximum a posteriori probability estimation, IEEE Trans. Geosci. Remote Sens., vol. 34, no. 4, pp. 831–846, Jul. 1996. Olson, W.S., C. D. Kummerow, G. M. Heymsfield, and L. Giglio, A method for combined passive-active microwave retrievals of cloud and precipitation parameters, J. Appl. Meteorol., vol. 35, pp. 1763–1789, 1996. Marzano, F.S., A. Mugnai, G. Panegrossi, N. Pierdicca, E. A. Smith, and J. Turk, Bayesian estimation of precipitating cloud parameters from combined measurements of spaceborne microwave radiometer and radar, IEEE Trans. Geosci. Remote Sens., vol. 37, no. 1, pp. 596–613, Jan. 1999. Viltard, N., C. Burlaud, and C. D. Kummerow, Rain retrieval from TMI brightness temperature measurements using a TRMM PR–based database. J. Appl. Meteor. Climatol, 45, 455–466, doi:10.1175/JAM2346.1, 2006. Gopalan, K., N.-Y. Wang, R. Ferraro, and C. Liu,  Status of the TRMM 2A12 land precipitation algorithm. J. Atmos. Oceanic Technol., 27, 1343–1354, doi:10.1175/2010JTECHA1454.1, 2010."
+    },
+    {
+        "title": "Derivation Techniques and Algorithm",
+        "text": "User should refer report “Rainfall Estimation from Megha-Tropiques Microwave Sounder-SAPHIR using Bayesian Approach” for complete reference to the algorithm."
+    },
+    {
+        "title": "Limitations",
+        "text": "Rainfall estimates are not provided in the 3 outermost scan positions of the SAPHIR scan."
+    },
+    {
+        "title": "Known problems with data",
+        "text": "No known issues at this time."
+    },
+    {
+        "title": "File Naming Convention",
+        "text": "HDF5 file: MTSAPS__VVV_*_YYYY_MM_DD_*.Bayesian_RR.h5 VVV is the Level 1 version number YYYY is the year, MM is the month and DD is the date of the orbit."
+    }
+]

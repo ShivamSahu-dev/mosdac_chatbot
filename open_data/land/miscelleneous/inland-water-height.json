@@ -1,0 +1,45 @@
+[
+    {
+        "title": "Data Access",
+        "text": "Click Here to access the Science Products . Request to use MOSDAC Single Sign On user credentials to download the data.",
+        "links": [
+            "https://mosdac.gov.in//opendata/inland_water_height/"
+        ]
+    },
+    {
+        "title": "Data Version",
+        "text": "Version 1.0 (beta)"
+    },
+    {
+        "title": "Data Sources",
+        "text": "Altimeter Interim Geophysical Data Record (IGDR) Geophysical Data Record (GDR) ECMWF Pressure Fields Global Ionosphere Maps (GIM) produced Total Electron Content (TEC) maps"
+    },
+    {
+        "title": "Processing Steps",
+        "text": "Firstly the waveforms are classified based on their signature, and then these waveforms are retracked with the suitable retracker. Dedicated inland range correction algorithms are required to account for the atmospheric delays.Detailed information about the processing can be found in (S. Chanderet. al. 2014, A .Dubey et. al. 2014)."
+    },
+    {
+        "title": "References",
+        "text": "S. Chander, and P Chauhan (2013). Algorithm Theoretical BasisDocument for SARAL/AltiKa data processing for geophysical parametersretrieval, scientific report no. EPSA/MPSG/PMD/2013/01. S Chander, D Ganguly, AK Dubey, PK Gupta, RP Singh and P Chauhan(2014).Inland water bodies monitoring using satellite altimetry overIndian region, The International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences, Volume XL-8, 2014, ISPRS Technical Commission VIII Symposium, 09 ? 12 December 2014, Hyderabad, India. A K Dubey, P K Gupta, S Dutta and R P Singh (2015). Water Level Retrieval using SARAL/AltiKa Observations in the Braided Brahmaputra River, Eastern India, Marine Geodesy, DOI: 10.1080/01490419.2015.1008156 D Ganguly, S Chander, S Deasi and P Chauhan. Optimal waveform retracker for inland water bodies: A case study over Ukai Dam/Reservoir, is under review in the journal of Marine Geodesy. P K Gupta, A K Dubey, N Goswami, R P Singh and P Chauhan (2015): Use of SARAL/AltiKa Observations for Modeling River Flow. Marine Geodesy (accepted)."
+    },
+    {
+        "title": "Derivation Techniques and Algorithm",
+        "text": "The water level over the inland water bodies can be retrieved using altimeter waveforms data. The range information is estimated based on the arrival time of the radar pulse. This range is then corrected for Dry tropospheric correction, wet tropospheric correction, ionospheric correction, and tidal correction, i.e. Load tide, solid earth tide. Detailed information about the range corrections can be found in the ATBD document (S. Chander and Prakash Chauhan, 2013) of the SARAL mission."
+    },
+    {
+        "title": "Limitations",
+        "text": "Based on the availability of the Altimeter dataset over the study region (Data Gap, altimeter track loss, bad weather, etc.)."
+    },
+    {
+        "title": "Known problems with data",
+        "text": "Data problems due to bad weather (heavy rain)"
+    },
+    {
+        "title": "Related data collections",
+        "text": "GPS Field trip for water level measurement was conducted over Ukai reservoir on 9th November 2013, 17th January 2014 and 2nd January 2015. Brahmaputra observed river water level data was collected for 6 locations from upstream to downstream from Inland Waterways Authority (IWAI) and Central Water Commission (CWC) along with the satellite pass synchronous field trips."
+    },
+    {
+        "title": "File Naming Convention",
+        "text": "altimeter_derived_water_height_ukai_yyyymmdd_v1"
+    }
+]

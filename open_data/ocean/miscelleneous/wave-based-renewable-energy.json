@@ -1,0 +1,58 @@
+[
+    {
+        "title": "Data Access",
+        "text": "Click Here to access the Science Products . Request to use MOSDAC Single Sign On user credentials to download the data.",
+        "links": [
+            "http://www.mosdac.gov.in"
+        ]
+    },
+    {
+        "title": "Data Version",
+        "text": "Version 1.0 (beta)"
+    },
+    {
+        "title": "Data Sources",
+        "text": "The significant wave height (SWH) and wind speed for both altimeters are taken from Jason-2 and SARAL/ALTIKA.",
+        "links": [
+            "http://www.aviso.oceanobs.com",
+            "http://www.mosdac.gov.in"
+        ]
+    },
+    {
+        "title": "Processing Steps",
+        "text": "Using Significant Wave Height (SWH) and wind speed, the wave period is derived based on the data adaptive technique of \" Genetic Algorithm \" (Remya et al. 2011). The derived wave period is validated using buoy observations from Indian National Center for Ocean Information Services (INCOIS). Wave power is derived based on SWH and estimated wave period."
+    },
+    {
+        "title": "References",
+        "text": "R. Govindan, R. Kumar, S. Basu and A. Sarkar. \" Altimeter-Derived Ocean Wave Period Using Genetic Algorithm, \" IEEE Geosci. Remote Sens. Lett.,VOL 8.NO. 2,pp. 354 - 358, March 2011. A. Alvarez, A.Orfila , J.Tintore, \" DARWIN: An evolutionary program for nonlinear modeling of chaotic time series, \" Computer Physics Communications 136, pp.334- 349 2001. A. Soni, \" Application of SARAL/AltiKa in extraction of wave power over Indian Ocean Region, \" M. Tech Dissertation, Department of Computer Sciences, Ganpat University, Gujarat, March 2015."
+    },
+    {
+        "title": "Derivation Techniques and Algorithm",
+        "text": "The wave power (P) is mathematically derived as:",
+        "equations": [
+            {
+                "formula": "$ P = \\frac{1}{2 \\pi} \\rho g^2 \\frac{H_{m0}^2 T}{8 g} \\frac{U_g}{L_w} \\frac{1}{2 \\pi} $",
+                "variables": [
+                    {"symbol": "P", "description": "Wave power per unit of wave-crest length (in Kilowatt/m)"},
+                    {"symbol": "R", "description": "Represents the satellite range"},
+                    {"symbol": "$H_{m0}$", "description": "Significant wave height (in meters)"},
+                    {"symbol": "T", "description": "Wave period (in seconds)"},
+                    {"symbol": "$ρ$", "description": "Density of water (in kilogram/cubic meter)"},
+                    {"symbol": "$g$", "description": "Acceleration due to gravity (in meters/square seconds)"}
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Limitations",
+        "text": "The products have gaps as they are based purely on track altimeters data."
+    },
+    {
+        "title": "Known problems with data",
+        "text": "Data problems due to bad weather (heavy rain)."
+    },
+    {
+        "title": "File Naming Convention",
+        "text": "For inter-annual monthly product from Jason-2 and SARAL/ALTIKA: Parametername_Altimetername_month_year. Example: WE_SARL_JUL_2009 represents the wave energy from SARAL/Altika during July 2009. For Monthly climatology of ocean wave energy: Parametername_CLIM_month_start year-end year. Example: WE_CLIM_JUL_2008-2014 represents the wave energy climatology during July 2008-2014."
+    }
+]

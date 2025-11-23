@@ -1,0 +1,56 @@
+[
+    {
+        "title": "Data Access",
+        "text": "Click Here to access the Science Products . Request to use MOSDAC Single Sign On user credentials to download the data.",
+        "links": [
+            "https://mosdac.gov.in//opendata/saral_coastal_product/"
+        ]
+    },
+    {
+        "title": "Data Version",
+        "text": "Version 1.1 (Beta)"
+    },
+    {
+        "title": "Data Sources",
+        "text": "Altimeter Sensor-Interim Geophysical Data Record (S-IGDR), Indian Ocean Bathymetry, Indian Ocean Geoid, High resolution coastline."
+    },
+    {
+        "title": "Processing Steps",
+        "text": "i. High resolution bathymetry is used to separate the coastal and land waveforms. ii. Waveforms are classified based on their shape. iii. Waveforms are retracked with the beta parameter retrackers (BETA5 and BETA9) and BAGP (Brown with asymmetric Gaussian Peak) retracker to get sea surface height (SSH), sea surface height anomaly (SSHA), significant wave height (SWH) and wind speed. iv. Using Significant Wave Height (SWH) and wind speed, the wave period is derived based on the data adaptive technique of \" Genetic Algorithm \" (Remya et al. 2011) v. Wave power is derived based on SWH and estimated wave period. 40 Hz data is filtered using a lanczos filter to remove high frequency noise. vi. Wind power is calculated using standard wind power formula. 40 Hz data is filtered using a lanczos filter to remove high frequency noise."
+    },
+    {
+        "title": "References",
+        "text": "Amarouche L, Thibaut P, Zanife O.-Z, Dumont, P. Vincent J.-P. and Steunou N 2004. Improving the Jason-1 ground retracking to better account for attitude effects, Mar. Geod. 27: 171-197. Brown, G. S. 1977. The Average impulse response of a rough surface and its applications, IEEE Trans. Antennas Propag. AP-25: 67-74. Chelton, D. B., J. C. Ries, B. J. Haines, L. L. Fu, and P. S. Callahan, 2001, “Satellite Altimetry”, Satellite Altimetry and Earth Sciences, ed. L.L. Fu and A. Cazenave, pp. 1-131. Chaudhary A., Basu S., Kumar R, Mahesh, C. and Sharma R. 2015.” Shape classification of AltiKa 40-Hz waveforms using Linear Discriminant Analysis and Bayes Decision Rule in the Gujarat Coastal region “Marine Geodesy. Coastal and Hydrology Altimetry product (PISTACH) handbook, CLS-DOS-NT-10-246, SALP-MU-P-OP-16031-CN 01/00, 1. 0, Oct. 4, 2010 Deng, X., and W. E. Featherstone. 2006. A coastal retracking system for satellite radar altimeter waveforms: Application to ERS-2 around Australia. J. Geophys. Res. 111: doi:10.1029/2005JC003039. Deng, X. 2003. “Improvement of geodetic parameter estimation in coastal regions from satellite radar altimetry.” PhD. Dissertation, Curtin University of Technology, Perth, Australia. Halimi, A., C. Mailhes, J. – Y. Tourneret, P. Thibaut, and F. Boy. 2013. Parameter estimation for peaky altimetric waveforms. IEEE Trans. Geosci. Rem. Sens., 51: 1568-1577. The PISTACH project for coastal altimetry: Status, products and early results, in Proc. OST-ST Meeting, Seattle, WA. Nelder, J.A. and Mead R. 1965. A simplex method for function minimization. Computer Journal, vol 7, no. 4, 308-313. Ray, R. D., 1999, A global ocean tide model from TOPEX/POSEIDON altimetry: GOT99.2, NASA Tech. Memorandum 1999-209478, Goddard Space Flight Center, Greenbelt, MD. SARAL/AltiKa Products Handbook, SALP-MU-M-OP-15984-CN, 2, 4, December 9, 2013 Remya, G., Kumar, R., Basu, S., &amp; Sarkar, A. (2011). Altimeter-derived ocean wave period using genetic algorithm. IEEE Geoscience and Remote Sensing Letters, 8(2), 354-358. R. Govindan, R. Kumar, S. Basu and A. Sarkar. \" Altimeter-Derived Ocean Wave Period Using Genetic Algorithm, \" IEEE Geosci. Remote Sens. Lett.,VOL 8.NO. 2,pp. 354 - 358, March 2011 Sindhu, B., I. Suresh, A. S. Unnikrishnan, N. V. Bhatkar, S.Neetu and G. S. Michael 2007. Improved bathymetric data sets for the shallow water regions in the Indian Ocean. J. Earth Syst. Sci.,116,61–274. Sreejith, K.M., Rajesh, S., Majumdar, T.J., Srinivasa Rao G., Radhakrishna, M., Krishna, K.S., Rajawat A.S., 2013. High-resolution residual geoid and gravity anomaly data of the northern Indian Ocean - an input to geological understanding. J. Asian Earth Sci. 62, 616–626."
+    },
+    {
+        "title": "Derivation Techniques and Algorithm",
+        "text": "User should refer User Handbook “Moving closer to the coast by SARAL/AltiKa: Geophysical Product for Indian Mainland Region” for complete reference to the algorithm and processing steps. For Handbook SARAL/AltiKa: Geophysical Product for Indian Mainland Region (Size: 1.14MB Format: PDF Tool: PDFView) Click Here. For value added wave product: The wave power (P) is mathematically derived as:",
+        "links": [
+            "http://mosdac.gov.in/sites/default/files/docs/User-HANDBOOK-COASTAL-PRODUCT.pdf"
+        ],
+        "wave_power_formula": {
+            "formula": "$ P = \\frac{1}{2 \\pi} \\rho g^2 \\frac{H_{s}^2 T_p}{8 g} \\frac{U_g}{L_w} \\frac{1}{2 \\pi} $",
+            "variables": [
+                {"symbol": "P", "description": "Wave power per unit of wave-crest length (in Kilowatt/m)"},
+                {"symbol": "R", "description": "Represents the satellite range"},
+                {"symbol": "$H_{m0}$ or $H_{s}$", "description": "Significant wave height (in meters)"},
+                {"symbol": "$T$ or $T_p$", "description": "Wave period (in seconds)"},
+                {"symbol": "$ρ$", "description": "Density of water (in kilogram/cubic meter)"},
+                {"symbol": "$g$", "description": "Acceleration due to gravity (in meters/square seconds)"}
+            ],
+            "wind_power_note": "Wind power is generated by using $ \\rho $ (density of air) and wind speed. Unit area is assumed in this equation."
+        }
+    },
+    {
+        "title": "Limitations",
+        "text": "Based on the availability of the Altimeter dataset over the study region (Data Gap, altimeter track loss, bad weather, etc.). Geophysical and atmospheric range corrections have been obtained from the standard 1-Hz product of SARAL/AltiKa."
+    },
+    {
+        "title": "Known problems with data",
+        "text": "Data problems due to bad weather (heavy rain). Onboard tracker failure leads to unusable data. Coastal contamination may lead to erroneous estimate of the derived parameters."
+    },
+    {
+        "title": "File Naming Convention",
+        "text": "Netcdf file: SRL_CCC_TTTT_yyyymmddHHMMSS_yyyymmddHHMMSS_INDIANCOAST_SIGDR_VER1.1.nc; JPG Files: ssha_cycCCC_yyyymmdd_yymmdd.jpg (sea surface height anomaly image), swh_cycCCC_yyyymmdd_yymmdd.jpg (swh image), wind_speed_cycCCC_yyyymmdd_yymmdd.jpg (wind speed image). Where CCC is the cycle number and TTTT is the track number., first yyyymmddHHMMSS is the start time of the file., and second yyyymmddHHMMSS is the end time of the file.. For values added wind wave power product: wind_power_cycCCC_yyyymmdd_yymmdd.jpg (wind power image), wave_power_cycCCC_yyyymmdd_yymmdd.jpg (wave power image)."
+    }
+]

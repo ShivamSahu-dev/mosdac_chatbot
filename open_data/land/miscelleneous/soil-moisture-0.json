@@ -1,0 +1,29 @@
+[
+    {
+        "title": "Data Access",
+        "text": "Click Here to access the Science Products . Request to use MOSDAC Single Sign On user credentials to download the data.",
+        "links": [
+            "https://mosdac.gov.in//opendata/soil_moisture/"
+        ]
+    },
+    {
+        "title": "Data Version",
+        "text": "Version 1.0 (beta)"
+    },
+    {
+        "title": "Data Sources",
+        "text": "SMAP L-band radiometer data"
+    },
+    {
+        "title": "Processing Steps",
+        "text": "Following are the three major processing steps : i. SMAP L1C daily data. ii. Import previous 3 days data iii. Generate global mosaic of Tb iv. Generate Indian mosaic of Tb v. Generate SWI from Tb and gridding the data"
+    },
+    {
+        "title": "Derivation Techniques and Algorithm",
+        "text": "Soil Wetness Index (SWI) is derived using a time series based methodology using SMAP L-band radiometer data, normalized to the extreme values of 0 and 1, corresponding to the dry and saturated soil wetness conditions respectively."
+    },
+    {
+        "title": "File Naming Convention",
+        "text": "The Geotiff file names follows naming convention; Soil Wetness Index file: SWI_SMAP_I_YYYYMMD1_YYYYMMD2.tif SWI : Soil Wetness Index SMAP : Soil Moisture Active Passive I : India YYYY : Year MM : Month D1 : Start Date D2 : End Date Soil Moisture file : SWI_SMAP_I_YYYYMMD1_YYYYMMD2.tif SWI : Soil Moisture SMAP : Soil Moisture Active Passive I : India YYYY : Year MM : Month D1 : Start Date D2 : End Date"
+    }
+]
